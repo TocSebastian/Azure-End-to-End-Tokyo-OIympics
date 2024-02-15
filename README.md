@@ -1,6 +1,5 @@
 # Azure-End-to-End-Tokyo-OIympics
 
-In this project we upload the local files to the Raw-Data directory in Azure Data Lake using Data Factory. Then we use Azure Databricks to transform the data and upload it to the Transformed-Data directory in Azure Data Lake.
-After that using Azure Synapse Analytics we upload the transformed data from the Data Lake to multiple tables in the database that we created so it can be queried and analysis be performed on it.
+In this project, we orchestrated the ingestion of local files into the Raw-Data directory within Azure Data Lake utilizing Azure Data Factory. Subsequently, leveraging Azure Databricks, we performed intricate data transformations before seamlessly loading the processed data into the Transformed-Data directory within Azure Data Lake. Finally, employing Azure Synapse Analytics, we orchestrated the ingestion of the transformed data from Azure Data Lake into a structured database, facilitating versatile querying and sophisticated data analysis capabilities.
 
 ![Azure End to End Arhitecture](https://github.com/TocSebastian/Azure-End-to-End-Tokyo-OIympics/assets/91591126/d1b9ebfb-3cef-4ff6-b260-bb199226dc0f)
